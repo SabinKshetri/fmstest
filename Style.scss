@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #a5a4a4;
+}
+.con{
+    max-width: 900px;
+    background: #fff;
+    align-items: center;
+    margin: auto;
+    
+}
+.btn{
+    padding: 20px;
+    background: green;
+    border:1px solid black;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+section{
+    table{
+        border: 1px solid black;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: auto;
+        
+    }
+}
+.container{
+    background: #fff;
+    width: 800px;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 50px;
+    h1{
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        font-weight: bold;
+    }
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+form{
+    .name{
+        padding: 2px 25px;
+        border-radius: 5px;
+        &:hover{
+            border: 1px solid red;
+        }
+    }
+    .id{
+        padding: 2px 25px;
+        border-radius: 5px;
+        &:hover{
+            border: 1px solid red;
+        }
+    }
+    .dob{
+        padding: 2px 25px;
+        border-radius: 5px;
+        &:hover{
+            border: 1px solid red;
+        }
+    }
+    .bus{
+        padding: 2px 150px;
+        border-radius: 5px;
+        &:hover{
+            border: 1px solid red;
+        }
+    }
+    .pan{
+        padding: 2px 70px;
+        border-radius: 5px;
+        &:hover{
+            border: 1px solid red;
+        }
+    }
+    .abc{
+        padding: 2px 70px;
+        border-radius: 5px; 
+        &:hover{
+            border: 1px solid red;
+        }
+    }
+    .ab{
+        padding: 2px 70px;
+        border-radius: 5px; 
+        &:hover{
+            border: 1px solid red;
+        }
+    }
+}
+.submit{
+    .but{
+        background: green;
+        color: #fff;
+        padding: 5px 20px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        &:hover{
+            background: #a5a4a4;
+            border: 1px solid red;
+            cursor: pointer;
+        }
+    }
+}
+
